@@ -1,0 +1,27 @@
+/* Contact.css */
+
+.contact-sticker {
+  position: fixed;
+  top: 50%; /* This will vertically center the component */
+  right: 0;
+  transform: translateY(-50%); /* Adjusts the centering */
+  background-color: #333; /* Background color of the sticker */
+  padding: 10px;
+  border-radius: 10px 0 0 10px; /* Gives rounded corners on the left side */
+  display: flex;
+  flex-direction: column; /* Stack icons vertically */
+  align-items: center;
+  z-index: 9999; /* Ensure it is always above other elements */
+}
+
+.social-icon {
+  color: white;
+  font-size: 24px; /* Size of the icons */
+  margin: 10px 0; /* Space between icons */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+  color: #8f8f8f; /* Change color on hover (Twitter blue as an example) */
+}
