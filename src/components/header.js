@@ -36,7 +36,7 @@ const nameStyle = {
 };
 
 const subtitleStyle = {
-  color: "#F9F6EE", // Light color for the subtitle
+  color: "#f15f5f", // Light color for the subtitle
 };
 
 export default Header;

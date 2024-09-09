@@ -3,9 +3,13 @@
   height: auto;
   filter: brightness(80%);
   object-fit: cover;
-  box-shadow: 0 1px 2px 1px rgb(54, 54, 54); /* Adds a subtle shadow effect */
+  border: 2px solid rgb(194, 194, 194);
+  border-radius: 10px;
 }
 
+.hero-icon:hover {
+  border: 2px solid #f15f5f;
+}
 .hero-container:hover {
   transform: scale(1.1);
 }
@@ -17,4 +21,15 @@
 
 .overlay-text {
   width: 100%;
+}
+
+.overlay-text h4,
+.overlay-text p {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.hero-column:hover .overlay-text h4,
+.hero-column:hover .overlay-text p {
+  color: #f15f5f;
 }
