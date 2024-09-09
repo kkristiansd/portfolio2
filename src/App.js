@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Contact from "./components/contact";
+import ExperienceCarousel from "./components/experience";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div className=" mt-4 ">
         <Hero />
+      </div>
+      <div className=" mt-4 ">
+        <ExperienceCarousel />
       </div>
 
       <Contact />
