@@ -37,9 +37,3 @@
     font-size: 1rem;
   }
 }
-.svg-custom-width {
-  width: 20%; /* Adjust the width as needed */
-  height: auto; /* Ensure it scales proportionally */
-  margin: 0 auto; /* Center the image horizontally */
-  display: block;
-}

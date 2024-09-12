@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "./experience.css";
+import { ReactSVG } from "react-svg";
 
 const ExperienceCarousel = () => {
   return (
@@ -8,11 +9,8 @@ const ExperienceCarousel = () => {
       <Carousel indicators={true} controls={true} interval={3000} pause="hover">
         {/* Slide 1 */}
         <Carousel.Item>
-          <img
-            className="d-block svg-custom-width"
-            src="/assets/tcelectronic.svg"
-            alt="Third slide"
-          />
+          <ReactSVG className="w-30" src="/assets/tcelectronic.svg" />
+
           <Carousel.Caption>
             <h3>Third Experience</h3>
             <p>Details about the third experience</p>
